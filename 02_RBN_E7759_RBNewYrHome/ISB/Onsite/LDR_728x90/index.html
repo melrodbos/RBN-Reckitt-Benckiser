@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="ad.size" content="width=728,height=90">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>LDR_728x90</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://use.typekit.net/qgc2nty.css">
+  <link rel="stylesheet" href="styles.css">
+  <!-- ClickTag for Google Ad Manager -->
+  <script type="text/javascript">
+    var clickTag = "https://www.samsclub.com/b/promotion-49/18300368";
+  </script>
+  <!-- Enabler -->
+  <script src="https://s0.2mdn.net/ads/studio/Enabler.js"></script>
+</head>
+<body>
+  <div id="bg-exit">
+    <div id="myAd">
+      <div id="container">
+        <!-- Google ClickTag Wrap Start -->
+        <a href="javascript:window.open(window.clickTag)">
+          <!-- <img src="images/ldr-backup.png" style="margin-top: -1px; margin-left: -1px;"> -->
+          <div class="bgWrap">
+            <div id="bg"></div>
+            <div id="bgBottom"></div>
+            <div id="wiggle"></div>
+          </div>
+          <div class="copyWrap">
+            <div id="head1"></div>
+            <div id="sub"></div>
+          </div>
+
+          <div class="prodWrap">
+            <div id="prod1"></div>
+            <div id="prod2"></div>
+            <div id="prod3"></div>
+            <div id="prod4"></div>
+          </div>
+          <div id="label"></div>
+          <div id="cta"></div>
+          <div id="disc"></div>
+        </a><!-- End of ClickTag -->
+      </div><!-- End of container -->
+    </div>
+  </div>
+</body>
+  <!-- JS -->
+  <!-- GSAP CDN (Most recent version please)-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/EasePack.min.js"></script>
+  <!-- <script src="../../../../GSDevTools.min.js"></script> -->
+  <script src="main.js"></script>
+  <script >
+  //DCS Enabler Exit ClickTag -- DO NOT DELETE! --
+  function bgExitHandler(e) {
+      Enabler.exit('ClickTag');
+  }
+  document.getElementById('bg-exit').addEventListener('click', bgExitHandler, false);
+  </script>
+</html>
