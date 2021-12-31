@@ -27,7 +27,7 @@ master
   .to( prod3, 0.5, { x: 57, ease: Expo.easeOut }, '-=0.5')
 
   .from( prod4, 0.75, { opacity: 0, ease: Expo.easeOut })
-  .to( prodWrap, 0.5, { y: 33, ease: Back.easeOut })
+  .to( prodWrap, 0.5, { y: 50, ease: Back.easeOut })
 
   .to( prodWrap, 0.5, { scale: 0.5, x: 294, y: 33, ease: Back.easeOut }, '+=0.5')
 
