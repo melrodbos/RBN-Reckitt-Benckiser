@@ -1,0 +1,142 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+a:link, a:active, a:focus, a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+#myAd {
+  width: 728px;
+  height: 90px;
+  background-color: #86f7df;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #D2D2D2;
+}
+/* **** BG **** */
+#bg {
+  background-color: #86f7df;
+  position: absolute;
+  width: 728px;
+  height: 90px;
+  top: 0px;
+  left: 0px;
+  image-rendering: -webkit-optimize-contrast;
+}
+#bgBottom {
+  background: url('images/bgBottom.png');
+  position: absolute;
+  width: 728px;
+  height: 90px;
+  top: 0px;
+  left: 0px;
+  image-rendering: -webkit-optimize-contrast;
+}
+#bgDark {
+  background: url('images/bgDark.png');
+  position: absolute;
+  width: 160px;
+  height: 600px;
+  top: 0px;
+  left: 0px;
+  image-rendering: -webkit-optimize-contrast;
+}
+#wiggle {
+  background: url('images/wiggle.gif');
+  position: absolute;
+  width: 320px;
+  height: 320px;
+  top: -76px;
+  left: -123px;
+  image-rendering: -webkit-optimize-contrast;
+}
+#label {
+  background: url('images/label.png');
+  position: absolute;
+  width: 105px;
+  height: 108px;
+  top: -17px;
+  left: -5px;
+  image-rendering: -webkit-optimize-contrast;
+}
+/* **** Copy **** */
+#head1 {
+  background: url('images/head1.png');
+  position: absolute;
+  width: 215px;
+  height: 25px;
+  top: 12px;
+  left: 160px;
+  image-rendering: -webkit-optimize-contrast;
+}
+#head2 {
+  background: url('images/head2.png');
+  position: absolute;
+  width: 66px;
+  height: 34px;
+  top: 26px;
+  left: 212px;
+  image-rendering: -webkit-optimize-contrast;
+}
+#sub {
+  background: url('images/sub.png');
+  position: absolute;
+  width: 226px;
+  height: 30px;
+  top: 45px;
+  left: 160px;
+  image-rendering: -webkit-optimize-contrast;
+}
+/* **** Products **** */
+.prodWrap {
+  position: absolute;
+  top: 0px;
+}
+#prod4 {
+  background: url('images/prod4.png');
+  position: absolute;
+  width: 179px;
+  height: 222px;
+  top: -75px;
+  left: 265px;
+  image-rendering: -webkit-optimize-contrast;
+}
+#prod1, #prod2, #prod3 {
+  background: url('images/prod1.png');
+  position: absolute;
+  width: 58px;
+  height: 215px;
+  top: -75px;
+  left: 326px;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+#cta {
+  background: url('images/cta.png');
+  position: absolute;
+  width: 113px;
+  height: 36px;
+  top: 15px;
+  left: 525px;
+  image-rendering: -webkit-optimize-contrast;
+}
+#disc {
+  background: url('images/disc.png');
+  position: absolute;
+  width: 89px;
+  height: 15px;
+  top: 58px;
+  left: 536px;
+  image-rendering: -webkit-optimize-contrast;
+}
+#scLogo {
+  background: url('images/scLogo.png');
+  position: absolute;
+  width: 49px;
+  height: 67px;
+  top: 7px;
+  left: 652px;
+  image-rendering: -webkit-optimize-contrast;
+}
