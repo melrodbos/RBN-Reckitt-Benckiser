@@ -1,0 +1,136 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+a:link, a:active, a:focus, a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+#myAd {
+  width: 728px;
+  height: 90px;
+  background-color: #eee;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #D2D2D2;
+}
+/* **** BG **** */
+#bg {
+  background-color: #eee;
+  position: absolute;
+  width: 728px;
+  height: 90px;
+  top: 0px;
+  left: 0px;
+  image-rendering: -webkit-optimize-contrast;
+}
+#bgBottom {
+  background: #00afd7;
+  clip-path: polygon(34% 0, 68% 0, 57% 100%, 22% 100%);
+  position: absolute;
+  width: 728px;
+  height: 90px;
+  top: 0px;
+  left: 80px;
+  image-rendering: -webkit-optimize-contrast;
+}
+#label {
+  background: url('images/label.png');
+  position: absolute;
+  width: 103px;
+  height: 107px;
+  top: -12px;
+  left: 74px;
+  image-rendering: -webkit-optimize-contrast;
+}
+/* **** Copy **** */
+.copyWrap {
+  position: absolute;
+  top: -15px;
+}
+#head {
+  background: url('images/head.png');
+  position: absolute;
+  width: 198px;
+  height: 20px;
+  top: 31px;
+  left: 22px;
+  image-rendering: -webkit-optimize-contrast;
+}
+#sub {
+  background: url('images/sub.png');
+  position: absolute;
+  width: 163px;
+  height: 32px;
+  top: 58px;
+  left: 39px;
+  image-rendering: -webkit-optimize-contrast;
+}
+/* **** Products **** */
+.prodWrap {
+  position: absolute;
+  left: 0px;
+}
+#group {
+  background: url('images/group.png');
+  position: absolute;
+  width: 728px;
+  height: 90px;
+  left: 0px;
+  image-rendering: -webkit-optimize-contrast;
+}
+#prod1 {
+  background: url('images/prod1.png');
+  position: absolute;
+  width: 134px;
+  height: 146px;
+  top: -16px;
+  left: 278px;
+  image-rendering: -webkit-optimize-contrast;
+}
+#prod2 {
+  background: url('images/prod2.png');
+  position: absolute;
+  width: 142px;
+  height: 137px;
+  top: -18px;
+  left: 421px;
+  image-rendering: -webkit-optimize-contrast;
+}
+#prod3 {
+  background: url('images/prod3.png');
+  position: absolute;
+  width: 110px;
+  height: 139px;
+  top: -17px;
+  left: 585px;
+  image-rendering: -webkit-optimize-contrast;
+}
+#prod4 {
+  background: url('images/prod4.png');
+  position: absolute;
+  width: 73px;
+  height: 119px;
+  top: -8px;
+  left: 187px;
+  image-rendering: -webkit-optimize-contrast;
+}
+#prod5 {
+  background: url('images/prod5.png');
+  position: absolute;
+  width: 121px;
+  height: 136px;
+  top: -11px;
+  left: 36px;
+  image-rendering: -webkit-optimize-contrast;
+}
+#cta {
+  background: url('images/cta.png');
+  position: absolute;
+  width: 113px;
+  height: 36px;
+  top: 25px;
+  left: 594px;
+  image-rendering: -webkit-optimize-contrast;
+}
