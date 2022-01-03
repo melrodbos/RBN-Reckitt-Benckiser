@@ -42,4 +42,4 @@ master
   .from( head, 0.75, { x: -100, stagger: 0.05, opacity: 0, ease: Expo.easeOut }, '-=0.75')
   .from( sub, 0.75, { x: -100, opacity: 0, ease: Expo.easeOut }, '-=0.5')
 
-  .from( cta, 0.5, { opacity: 0, ease: Back.easeOut }, '-=0.45')
+  .from( cta, 0.5, { x: 200, opacity: 0, ease: Expo.easeOut }, '-=0.45')
