@@ -27,19 +27,19 @@ master
   .to( prod2, 0.5, { scale: 0.47, x: -1, y: 96, ease: Expo.easeOut }, '-=0.5')
   .to( prod3, 0.5, { scale: 0.47, x: -1, y: 96, ease: Expo.easeOut }, '-=0.5')
 
-  .from( [ head1, head2], 0.75, { y: 50, scale: 0.5, stagger: 0.05, opacity: 0, ease: Expo.easeOut }, '-=0.5')
-  .from( sub, 0.75, { y: 50, opacity: 0, ease: Expo.easeOut }, '-=0.5')
+  .from( [ head1, head2], 0.75, { y: 50, scale: 0.5, stagger: 0.05, autoAlpha: 0, ease: Expo.easeOut }, '-=0.5')
+  .from( sub, 0.75, { y: 50, autoAlpha: 0, ease: Expo.easeOut }, '-=0.5')
 
   .to( prod2, 0.5, { x: -42, ease: Expo.easeOut },'-=0.35')
   .to( prod3, 0.5, { x: 42, ease: Expo.easeOut }, '-=0.5')
 
-  .from( prod4, 0.75, { opacity: 0, ease: Expo.easeOut })
+  .from( prod4, 0.75, { autoAlpha: 0, ease: Expo.easeOut })
 
   .to( prodWrap, 0.5, { y: 65, ease: Back.easeOut }, '+=0.5')
 
   .from( label, 0.5, { scale: 0.5, x: 150, y: -150, ease: Expo.easeOut }, '-=0.25')
-  .from( cta, 0.5, { scale: 0.5, opacity: 0, ease: Back.easeOut }, '-=0.5')
-  .from( disc, 0.5, { scale: 0.75, opacity: 0, ease: Power1.easeOut }, '-=0.25')
+  .from( cta, 0.5, { scale: 0.5, autoAlpha: 0, ease: Back.easeOut }, '-=0.5')
+  .from( disc, 0.5, { scale: 0.75, autoAlpha: 0, ease: Power1.easeOut }, '-=0.25')
 
 
 
