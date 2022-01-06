@@ -20,7 +20,7 @@ let
 
 master
   .from( myAd, 0.5, { delay: 0.5 } )
-  .from( [prod1, prod2, prod3 ], 0.75, { y: 400, scale: 0.5, ease: Expo.easeOut }, '+=0.25')
+  .from( [prod1, prod2, prod3 ], 0.75, { y: 400, scale: 0.5, ease: Expo.easeOut, force3D: false }, '+=0.25')
   .from( wiggle, 0.5, { x:-150, ease: "Expo.easeOut"}, '-=0.75')
   .from( bgBottom, 0.5, { x:350, ease: "Expo.easeOut"}, '-=0.75')
 
@@ -30,14 +30,14 @@ master
   .from( prod4, 0.75, { opacity: 0, ease: Expo.easeOut })
   .to( prodWrap, 0.5, { y: 50, ease: Back.easeOut })
 
-  .to( prodWrap, 0.5, { scale: 0.5, x: 276, y: 33, ease: Back.easeOut }, '+=0.5')
+  .to( prodWrap, 0.5, { scale: 0.5, x: 276, y: 33, ease: Back.easeOut, force3D: false }, '+=0.5')
 
-  .from( head1, 0.75, { y: 50, scale: 0.5, stagger: 0.05, opacity: 0, ease: Expo.easeOut }, '-=0.5')
+  .from( head1, 0.75, { y: 50, scale: 0.5, stagger: 0.05, opacity: 0, ease: Expo.easeOut, force3D: false }, '-=0.5')
   .from( sub, 0.75, { y: 50, opacity: 0, ease: Expo.easeOut }, '-=0.5')
 
-  .from( cta, 0.5, { scale: 0.5, opacity: 0, ease: Back.easeOut }, '-=0.5')
-  .from( disc, 0.5, { scale: 0.75, opacity: 0, ease: Power1.easeOut }, '-=0.25')
+  .from( cta, 0.5, { scale: 0.5, opacity: 0, ease: Back.easeOut, force3D: false }, '-=0.5')
+  .from( disc, 0.5, { scale: 0.75, opacity: 0, ease: Power1.easeOut, force3D: false }, '-=0.25')
 
-  .from( label, 0.5, { scale: 0.5, x: -150, y: -150, ease: Expo.easeOut }, '-=0.5')
+  .from( label, 0.5, { scale: 0.5, x: -150, y: -150, ease: Expo.easeOut, force3D: false }, '-=0.5')
 
   .from( scLogo, 0.5, { opacity: 0, y: 100, ease: Expo.easeOut }, '-=0.25')
